@@ -1,3 +1,9 @@
+'''The below code pertains to the output of an X-ray Fluorescence Spectrometer (XRF) that I worked on in the Summer of 2023.
+The code contains functions that load relevant data from an input file, calibrate data based on the analysis of a known material,
+and plot the spectra of an observation accordingly. 
+There is also code that writes out the spectrum histograms as .hyperc files (a custom file format for our XRF), 
+and that compares two spectra to locate similarities and differences.'''
+
 import matplotlib.pyplot as plt
 import numpy as np
 from scipy.optimize import curve_fit
